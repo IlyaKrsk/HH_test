@@ -37,6 +37,7 @@ footer {
     box-sizing: border-box;
     border-radius: 10px;
     height: 85px;
+    font-size: 26px;
 }
 
 .input_lbl {
