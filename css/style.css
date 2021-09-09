@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
 body {
-    background-color: #000;
+    background-color: #fff;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 30px;
+    min-width: 300px;
+    min-height: 100%;
+    height: 100%;
+    position: relative;
+}
 
+html {
+    min-height: 100%;
+    height: 100%;
+    position: relative;
 }
 
 a:hover {
@@ -13,10 +21,109 @@ a:hover {
     text-decoration: none;
 }
 
-a.letter_picture:hover img {
-    filter: drop-shadow(0px 0px 50px rgba(190, 57, 59, 0.7));
+a.letter_picture:hover img,
+a.logo:hover img {
+    filter: drop-shadow(4px 4px 7px rgba(190, 57, 59, 0.7));
 }
 
-header, footer {
+header,
+footer {
     background: #2D3136;
+}
+
+.input_cmnt {
+    background: #2D3136;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 85px;
+}
+
+.input_lbl {
+    color: #fff;
+    font-size: 26px;
+}
+
+.input_lbl span {
+    color: #BE393B;
+}
+
+a.red_btn {
+    background: #BE393B;
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+a.red_btn:hover {
+    background: #fff;
+    color: #BE393B;
+}
+
+.comments {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #37414E;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+
+.comment {
+    background: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    color: #6D737B;
+    padding: 0 0 75px 0;
+}
+
+.comment h2 {
+    background: #4B596C;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.comment p {
+    background: #E9EEF3;
+    margin: 0;
+}
+
+.comment .mail {
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #6D737B;
+}
+
+.comment p.text {
+    padding-bottom: 100px !important;
+    height: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.green h2 {
+    background: #58AD52;
+}
+
+.green .mail {
+    color: #58AD52;
 }
