@@ -40,6 +40,18 @@ footer {
     font-size: 26px;
 }
 
+.text_cmnt {
+    height: 100%;
+}
+
+.input_cmnt:focus {
+    background: #2F3136;
+    border: 1px solid #BE393B;
+    box-sizing: border-box;
+    font-size: 26px;
+    color: #fff;
+}
+
 .input_lbl {
     color: #fff;
     font-size: 26px;
@@ -61,6 +73,7 @@ a.red_btn {
     color: #FFFFFF;
     text-decoration: none;
     padding: 20px 40px;
+    margin: 20px 0;
 }
 
 a.red_btn:hover {
