@@ -26,6 +26,10 @@ a.logo:hover img {
     filter: drop-shadow(4px 4px 7px rgba(190, 57, 59, 0.7));
 }
 
+#show_error {
+    color: #BE393B;
+}
+
 header,
 footer {
     background: #2D3136;
@@ -38,6 +42,8 @@ footer {
     border-radius: 10px;
     height: 85px;
     font-size: 26px;
+    color: #fff;
+    font-weight: normal;
 }
 
 .text_cmnt {
@@ -47,9 +53,8 @@ footer {
 .input_cmnt:focus {
     background: #2F3136;
     border: 1px solid #BE393B;
-    box-sizing: border-box;
-    font-size: 26px;
     color: #fff;
+    font-weight: normal;
 }
 
 .input_lbl {
